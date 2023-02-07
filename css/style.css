@@ -1,5 +1,6 @@
 * {
-  font-family: "Marker Felt,";
+  font-family: "Marker Felt" !important;
+  color: "white" !important;
 }
 
 body {
@@ -23,15 +24,11 @@ img {
 
 .top-right-decoration {
   position: absolute;
-  top: 0;
-  right: 0;
   display: block;
 }
 
 .top-left-decoration {
   position: absolute;
-  top: 0;
-  left: 0;
   display: block;
 }
 
@@ -40,7 +37,7 @@ img {
   font-style: normal;
   font-size: 42px;
   margin: 32px 0;
-  color: #674ea7;
+  color: #ffffff;
 }
 
 .title h2 {
@@ -48,12 +45,12 @@ img {
   margin: 32px 0;
   padding: 0;
   font-size: 24px;
-  color: #564861;
+  color: #ffffff;
   line-height: 1;
 }
 
 .sender {
-  color: #874562;
+  color: #ffffff;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
