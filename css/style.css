@@ -1,6 +1,5 @@
 * {
   font-family: "Marker Felt,";
-  color: "white";
 }
 
 body {
@@ -8,6 +7,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: "white";
 }
 
 img {
