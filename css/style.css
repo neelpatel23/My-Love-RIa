@@ -1,5 +1,5 @@
 * {
-  font-family: "Marker Felt" !important;
+  font-family: "Marker Felt,";
   color: "white";
 }
 
@@ -8,12 +8,14 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: "white";
+}
+container: {
+  color: "#ffffff" !important;
 }
 
 img {
-  max-width: 50%;
-  height: 50%;
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 900px) {
@@ -24,11 +26,15 @@ img {
 
 .top-right-decoration {
   position: absolute;
+  top: 0;
+  right: 0;
   display: block;
 }
 
 .top-left-decoration {
   position: absolute;
+  top: 0;
+  left: 0;
   display: block;
 }
 
@@ -37,7 +43,7 @@ img {
   font-style: normal;
   font-size: 42px;
   margin: 32px 0;
-  color: #ffffff;
+  color: #674ea7;
 }
 
 .title h2 {
@@ -45,12 +51,12 @@ img {
   margin: 32px 0;
   padding: 0;
   font-size: 24px;
-  color: #ffffff;
+  color: #564861;
   line-height: 1;
 }
 
 .sender {
-  color: #ffffff;
+  color: #874562;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
